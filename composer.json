@@ -1,0 +1,26 @@
+{
+    "name": "devoptn/workflows",
+    "description": "Docker-based workflow management system for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DevOption\\Workflows\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DevOption Engineering",
+            "email": "engineering@devoption.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevOption\\Workflows\\Providers\\WorkflowProvider"
+            ]
+        }
+    }
+}
